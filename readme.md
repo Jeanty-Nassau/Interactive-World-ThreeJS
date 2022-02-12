@@ -1,5 +1,4 @@
-# Three.js Starter
-Courtesy of Bruno Simon of https://threejs-journey.xyz/
+#ThreeJs Interactive World
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).

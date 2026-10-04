@@ -1,27 +1,33 @@
 # Orbital Signals
 
-A compact Three.js study exploring shader-rendered atmosphere, a procedural star field, and pointer-responsive motion.
+A night-side interactive Earth study exploring topology, city-light emission, atmosphere, orbit traces, passive motion, and camera interaction.
 
-This began as a 2022 learning experiment and is intentionally presented as a focused creative-coding study rather than a production application.
+Originally started as a 2022 Three.js experiment and revisited in 2026 as one of three focused creative studies.
+
+## Interaction
+- Drag to orbit
+- Scroll to zoom
+- Reset the camera from the on-screen control
+- Earth and orbital traces move passively when reduced motion is not enabled
 
 ## Techniques
-- custom GLSL shaders
-- texture sampling and atmospheric falloff
-- additive blending
-- BufferGeometry particle fields
-- pointer-responsive interpolation
-- responsive rendering and reduced-motion support
+- mapped Earth texture
+- topology bump mapping
+- emissive night-side lights
+- layered atmosphere
+- additive orbit geometry
+- procedural star field
+- OrbitControls
 
 ## Run
+
 ```bash
 npm install
 npm run dev
 ```
 
 Production build:
+
 ```bash
 npm run build
 ```
-
-## Stack
-Three.js · WebGL/GLSL · JavaScript · Webpack

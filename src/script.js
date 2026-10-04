@@ -2,6 +2,7 @@ import './style.css'
 import * as THREE from 'three'
 
 const canvas=document.querySelector('canvas.webgl')
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 const container=document.querySelector('#canvasContainer')
 const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches
 const scene=new THREE.Scene()
